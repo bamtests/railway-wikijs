@@ -4,4 +4,4 @@ ENV DB_TYPE=${DB_TYPE:-postgres}
 
 COPY config.yml /wiki/config/config.yml
 
-EXPOSE 8080
+EXPOSE 80
