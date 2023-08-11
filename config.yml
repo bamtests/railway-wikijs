@@ -1,9 +1,2 @@
 port: 80
 bindIP: 0.0.0.0
-
-db:
-  type: $(DB_TYPE)
-  host: '$(DB_HOST)'
-  port: $(DB_PORT)
-  user: '$(DB_USER)'
-  pass: '$(DB_PASS)'
