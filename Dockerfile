@@ -6,6 +6,4 @@ ENV DB_NAME ${DB_NAME}
 ENV DB_PASS ${DB_PASS}
 ENV DB_PORT ${DB_PORT}
 ENV DB_USER ${DB_USER}
-
-
-COPY config.yml /wiki/config.yml
+ENV PORT 3000
